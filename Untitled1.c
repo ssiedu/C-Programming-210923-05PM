@@ -1,11 +1,10 @@
-//chek char range
+//operators
 #include<stdio.h>
 void main()
 {
-	unsigned short int ch;
-	ch=65536;
-	printf("value of ch : %d\n",ch);
-	
-	
-	
+	int a,b;
+	a=15;
+	b=7;
+	b%=b;
+	printf("a = %d\nb = %d",a,b);
 }
