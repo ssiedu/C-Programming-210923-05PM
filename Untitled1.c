@@ -2,9 +2,9 @@
 #include<stdio.h>
 void main()
 {
-	int a,b;
-	a=15;
-	b=7;
-	b%=b;
-	printf("a = %d\nb = %d",a,b);
+	int a,ans;
+	a=-4;
+	ans=~a;
+	printf("ans = %d",ans);
 }
+
