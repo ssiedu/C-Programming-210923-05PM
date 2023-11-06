@@ -1,10 +1,8 @@
-//operators
+//  operator
 #include<stdio.h>
 void main()
 {
-	int a,ans;
-	a=-4;
-	ans=~a;
-	printf("ans = %d",ans);
+	int a=12,b=6,x;
+	x= !(a>b);
+	printf("x = %d",x);
 }
-
