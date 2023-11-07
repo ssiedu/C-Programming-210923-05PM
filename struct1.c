@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<string.h>
-struct Employee
+typedef struct Employee
 {
 	int id;
 	char name[20];
 	float sal;
-};
+}Emp;
 void main()
 {
-	struct Employee emp;
+	Emp emp;
 	emp.id=101;
 	strcpy(emp.name,"Ram");
 	emp.sal=56000;
